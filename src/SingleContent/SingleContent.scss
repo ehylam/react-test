@@ -1,0 +1,21 @@
+.single_content--container {
+	height: 100vh;
+	width: 100%;
+	padding: 50px 100px;
+	.content-wrapper {
+		max-width: 50vw;
+		text-align: left;
+		color: rgb(202, 202, 202);
+	}
+	.content-editor--wrapper {
+		input {
+			background: none;
+			border: none;
+			color: rgb(202, 202, 202);
+			outline: none;
+			width: 50%;
+			height: 10vh;
+			text-align: center;
+		}
+	}
+}
